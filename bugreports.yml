@@ -1,1 +1,12 @@
-
+- summary: |
+    Не работает поиск товара по ключевому слову
+  environment: |
+    Google Chrome   123.0.6312.123 (Официальная сборка), (64 бит)
+    ОС Windows 10 Pro 19045.4291
+  steps-to-reproduce: |
+    - В правом верхнем углу в фильтре Language выбираем язык "Russian"
+    - В поле "Поиск" вводим "Watch"
+  expected-result: |
+    На странице остались товары, в названии которых содержится слово "Watch"
+  actual-result: |
+    Выводится сообщение Nothing found!
