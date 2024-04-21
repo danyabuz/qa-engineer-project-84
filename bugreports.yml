@@ -27,3 +27,15 @@
     В DevTools во вкладке Console появляется ответ GET 200 OK
   actual-result: |
      В DevTools во вкладке Console появляется ответ GET 500 (Internal Server Error)
+
+- summary: |
+    Не загружается иконка к языку English в меню Language
+  environment: |
+    Google Chrome   123.0.6312.123 (Официальная сборка), (64 бит)
+    ОС Windows 10 Pro 19045.4291
+  steps-to-reproduce: |
+    - Открываем меню Language
+  expected-result: |
+    Напротив надписи English отображается картинка
+  actual-result: |
+    Картинка не подгружается
