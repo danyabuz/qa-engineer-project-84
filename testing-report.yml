@@ -1,31 +1,31 @@
 - summary: |
     Проверка поиска товара по ключевому слову
-status: fail
-
+  status: fail
+  
 - summary: |
     Проверка сортировки товара по фильтру
-status: pass
+  status: pass
 
 - summary: |
      Проверка переключения на следующую страницу каталога
-status: pass
+  status: pass
 
 - summary: |
      Проверка переключения на предыдущую страницу каталога 
-status: pass
+  status: pass
 
 - summary: |
      Проверка открытия карточки товара
-status: pass
+  status: pass
 
 - summary: |
      Добавление товара в корзину
-status: pass
+  status: pass
 
 - summary: |
      Корзина хранится в сессии браузера
-status: pass
+  status: pass
 
 - summary: |
      Удаление товара из корзины
-status: pass
+  status: pass
