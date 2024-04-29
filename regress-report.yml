@@ -46,7 +46,7 @@ bugreports:
       Не происходит сортировка товаров
       # Снимок1.PNG
 
- - summary: |
+  - summary: |
      При оформлении заказа в DevTools выдается ошибка 500 Internal Server Error
    environment: |
      Google Chrome   123.0.6312.123 (Официальная сборка), (64 бит)
