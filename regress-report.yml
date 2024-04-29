@@ -48,17 +48,17 @@ bugreports:
 
   - summary: |
        При оформлении заказа в DevTools выдается ошибка 500 Internal Server Error
-     environment: |
+    environment: |
        Google Chrome   123.0.6312.123 (Официальная сборка), (64 бит)
        ОС Windows 10 Pro 19045.4291
-     steps-to-reproduce: |
+    steps-to-reproduce: |
        - Выбираем товар на сайте
        - Добавляем его в корзину
        - Переходим в корзину
        - Нажимаем F12
        - Переходим во вкладку Console
        - В корзине сайта нажимаем на кнопку Checkout
-     expected-result: |
+    expected-result: |
        В DevTools во вкладке Console появляется ответ GET 200 OK
-     actual-result: |
+    actual-result: |
        В DevTools во вкладке Console появляется ответ GET 500 (Internal Server Error)
